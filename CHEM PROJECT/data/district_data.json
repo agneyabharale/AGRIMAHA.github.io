@@ -1,0 +1,335 @@
+{
+  "Mumbai City": {
+    "soil": "Lateritic Soil",
+    "water": {"pH": 7.0, "TDS": 350, "quality": "Good"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Overuse can cause soil acidification",
+      "rating": 4.5
+    }
+  },
+  "Mumbai Suburban": {
+    "soil": "Lateritic Soil",
+    "water": {"pH": 7.1, "TDS": 360, "quality": "Good"},
+    "fertilizer": {
+      "recommended": ["NPK 19:19:19", "Urea"],
+      "harmful_effects": "Excess NPK may reduce crop quality",
+      "rating": 4.3
+    }
+  },
+  "Thane": {
+    "soil": "Lateritic Soil",
+    "water": {"pH": 7.2, "TDS": 370, "quality": "Good"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "DAP"],
+      "harmful_effects": "Overuse of DAP can burn crops",
+      "rating": 4.2
+    }
+  },
+  "Palghar": {
+    "soil": "Lateritic Soil",
+    "water": {"pH": 7.0, "TDS": 355, "quality": "Good"},
+    "fertilizer": {
+      "recommended": ["NPK 19:19:19", "Urea"],
+      "harmful_effects": "Excessive use can lower soil fertility",
+      "rating": 4.1
+    }
+  },
+  "Raigad": {
+    "soil": "Lateritic Soil",
+    "water": {"pH": 7.1, "TDS": 365, "quality": "Good"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Over-fertilization may cause water pollution",
+      "rating": 4.2
+    }
+  },
+  "Ratnagiri": {
+    "soil": "Lateritic Soil",
+    "water": {"pH": 6.9, "TDS": 340, "quality": "Good"},
+    "fertilizer": {
+      "recommended": ["NPK 10:26:26", "Urea"],
+      "harmful_effects": "Overuse can affect soil acidity",
+      "rating": 4.0
+    }
+  },
+  "Sindhudurg": {
+    "soil": "Lateritic Soil",
+    "water": {"pH": 7.0, "TDS": 350, "quality": "Good"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Excess nitrogen may harm plants",
+      "rating": 4.1
+    }
+  },
+  "Ahmednagar": {
+    "soil": "Black Cotton Soil",
+    "water": {"pH": 7.3, "TDS": 420, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Overuse may reduce soil fertility",
+      "rating": 4.2
+    }
+  },
+  "Dhule": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.4, "TDS": 430, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 10:26:26", "Urea"],
+      "harmful_effects": "Excessive NPK may cause soil imbalance",
+      "rating": 4.0
+    }
+  },
+  "Jalgaon": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.2, "TDS": 410, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "MOP"],
+      "harmful_effects": "Over-fertilization may damage crops",
+      "rating": 4.1
+    }
+  },
+  "Nandurbar": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.3, "TDS": 415, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Excessive nitrogen may burn plants",
+      "rating": 4.0
+    }
+  },
+  "Nashik": {
+    "soil": "Black Cotton Soil",
+    "water": {"pH": 7.2, "TDS": 400, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["DAP", "Urea"],
+      "harmful_effects": "Too much DAP can reduce soil health",
+      "rating": 4.3
+    }
+  },
+  "Kolhapur": {
+    "soil": "Red Soil",
+    "water": {"pH": 7.1, "TDS": 390, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 10:26:26", "Urea"],
+      "harmful_effects": "Overuse can acidify soil",
+      "rating": 4.1
+    }
+  },
+  "Sangli": {
+    "soil": "Red Soil",
+    "water": {"pH": 7.2, "TDS": 395, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Excessive fertilizers can reduce crop yield",
+      "rating": 4.0
+    }
+  },
+  "Satara": {
+    "soil": "Red Soil",
+    "water": {"pH": 7.1, "TDS": 380, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Over-fertilization may harm soil health",
+      "rating": 4.1
+    }
+  },
+  "Solapur": {
+    "soil": "Black Cotton Soil",
+    "water": {"pH": 7.3, "TDS": 420, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Too much nitrogen may burn crops",
+      "rating": 4.2
+    }
+  },
+  "Pune": {
+    "soil": "Black Cotton Soil",
+    "water": {"pH": 7.2, "TDS": 400, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["DAP", "MOP"],
+      "harmful_effects": "Overuse may reduce soil fertility",
+      "rating": 4.2
+    }
+  },
+  "Aurangabad": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.4, "TDS": 430, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Excess nitrogen may burn crops",
+      "rating": 4.1
+    }
+  },
+  "Beed": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.3, "TDS": 420, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Overuse may damage crops",
+      "rating": 4.0
+    }
+  },
+  "Hingoli": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.2, "TDS": 410, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 10:26:26", "Urea"],
+      "harmful_effects": "Excessive fertilizer may harm plants",
+      "rating": 4.1
+    }
+  },
+  "Jalna": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.3, "TDS": 415, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Overuse may reduce soil health",
+      "rating": 4.0
+    }
+  },
+  "Latur": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.4, "TDS": 425, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Too much fertilizer may damage crops",
+      "rating": 4.1
+    }
+  },
+  "Nanded": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.3, "TDS": 420, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Excess nitrogen can burn crops",
+      "rating": 4.0
+    }
+  },
+  "Osmanabad": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.2, "TDS": 410, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 10:26:26", "Urea"],
+      "harmful_effects": "Overuse may reduce crop yield",
+      "rating": 4.0
+    }
+  },
+  "Parbhani": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.3, "TDS": 415, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Too much nitrogen may burn plants",
+      "rating": 4.1
+    }
+  },
+  "Chhatrapati Sambhajinagar": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.2, "TDS": 410, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Excess fertilizer may harm soil",
+      "rating": 4.1
+    }
+  },
+  "Nagpur": {
+    "soil": "Red Soil",
+    "water": {"pH": 7.5, "TDS": 450, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "NPK 10:26:26"],
+      "harmful_effects": "Over-fertilization reduces soil fertility",
+      "rating": 4.0
+    }
+  },
+  "Wardha": {
+    "soil": "Red Soil",
+    "water": {"pH": 7.4, "TDS": 440, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Overuse may damage crops",
+      "rating": 4.1
+    }
+  },
+  "Bhandara": {
+    "soil": "Red Soil",
+    "water": {"pH": 7.3, "TDS": 430, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Excess nitrogen may burn plants",
+      "rating": 4.0
+    }
+  },
+  "Chandrapur": {
+    "soil": "Red Soil",
+    "water": {"pH": 7.4, "TDS": 440, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 10:26:26", "Urea"],
+      "harmful_effects": "Overuse reduces soil fertility",
+      "rating": 4.1
+    }
+  },
+  "Gadchiroli": {
+    "soil": "Red Soil",
+    "water": {"pH": 7.5, "TDS": 450, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "NPK 20:20:20"],
+      "harmful_effects": "Excess fertilizer can harm crops",
+      "rating": 4.0
+    }
+  },
+  "Gondia": {
+    "soil": "Red Soil",
+    "water": {"pH": 7.4, "TDS": 440, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Over-fertilization may reduce yield",
+      "rating": 4.1
+    }
+  },
+  "Amravati": {
+    "soil": "Black Cotton Soil",
+    "water": {"pH": 7.3, "TDS": 420, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Excess nitrogen may burn crops",
+      "rating": 4.0
+    }
+  },
+  "Akola": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.2, "TDS": 410, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 10:26:26", "Urea"],
+      "harmful_effects": "Too much fertilizer may reduce soil fertility",
+      "rating": 4.0
+    }
+  },
+  "Washim": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.3, "TDS": 415, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Overuse can burn crops",
+      "rating": 4.0
+    }
+  },
+  "Yavatmal": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.2, "TDS": 410, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["NPK 20:20:20", "Urea"],
+      "harmful_effects": "Over-fertilization may harm soil",
+      "rating": 4.0
+    }
+  },
+  "Buldhana": {
+    "soil": "Black Soil",
+    "water": {"pH": 7.3, "TDS": 420, "quality": "Moderate"},
+    "fertilizer": {
+      "recommended": ["Urea", "DAP"],
+      "harmful_effects": "Too much fertilizer may damage crops",
+      "rating": 4.0
+    }
+  }
+}

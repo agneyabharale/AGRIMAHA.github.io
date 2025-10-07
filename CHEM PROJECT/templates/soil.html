@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Soil & Water Quality</h3>
+<form method="POST">
+  <select name="district" class="form-select" onchange="this.form.submit()">
+    <option value="">--Select District--</option>
+    {% for district in districts %}
+      <option value="{{ district }}" {% if selected_district == district %}selected{% endif %}>{{ district }}</option>
+    {% endfor %}
+  </select>
+</form>
+
+{% if info %}
+<div class="card p-3 mt-3 shadow">
+  <h5>Soil Type: {{ info.soil }}</h5>
+  <p>Water Quality: {{ info.water.quality }}</p>
+  <p>pH: {{ info.water.pH }}, TDS: {{ info.water.TDS }} mg/L</p>
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Weather Forecast</h3>
+<form method="POST">
+  <select name="district" class="form-select" onchange="this.form.submit()">
+    <option value="">--Select District--</option>
+    {% for district in districts %}
+      <option value="{{ district }}" {% if selected_district == district %}selected{% endif %}>{{ district }}</option>
+    {% endfor %}
+  </select>
+</form>
+
+{% if info and info.weather %}
+<div class="weather-box text-center shadow rounded p-4">
+  <div class="weather-icon mb-2">
+    {% if info.weather.condition == 'Clear' %}☀️
+    {% elif info.weather.condition == 'Clouds' %}🌤️
+    {% elif info.weather.condition == 'Rain' %}🌧️
+    {% elif info.weather.condition == 'Snow' %}❄️
+    {% else %}🌦️{% endif %}
+  </div>
+  <h4>{{ selected_district }}</h4>
+  <p>Temperature: {{ info.weather.temperature }}°C</p>
+  <p>Condition: {{ info.weather.condition }}</p>
+  <p>Forecast: {{ info.weather.forecast }}</p>
+</div>
+{% endif %}
+{% endblock %}

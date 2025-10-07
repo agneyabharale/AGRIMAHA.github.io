@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="text-center mb-4">
+  <h2>Agriculture Monitoring – Maharashtra</h2>
+</div>
+
+<form method="POST" class="mb-4">
+  <div class="input-group">
+    <select name="district" class="form-select" required onchange="this.form.submit()">
+      <option value="">-- Select District --</option>
+      {% for district in districts %}
+        <option value="{{ district }}" {% if selected_district == district %}selected{% endif %}>
+          {{ district }}
+        </option>
+      {% endfor %}
+    </select>
+    <button class="btn btn-success" type="submit">Search</button>
+  </div>
+</form>
+
+{% if info %}
+<div class="card p-3 mt-3 shadow">
+
+  <h5>Soil Type: {{ info.soil }}</h5>
+  <p>Water Quality: {{ info.water.quality }}</p>
+  <p>pH: {{ info.water.pH }} <br>
+     TDS (Total Dissolved Solids): {{ info.water.TDS }} mg/L</p>
+
+  <h5 class="mt-3">Recommended Fertilizers: {{ info.fertilizer.recommended | join(", ") }}</h5>
+  <p>Harmful Effects: {{ info.fertilizer.harmful_effects }}</p>
+  <p>Customer Rating: ⭐{{ info.fertilizer.rating }}</p>
+
+  {% if info.weather %}
+  <div class="weather-box text-center mt-3">
+    <div class="weather-icon mb-2">
+      {% if info.weather.condition == 'Clear' %}☀️
+      {% elif info.weather.condition == 'Clouds' %}🌤️
+      {% elif info.weather.condition == 'Rain' %}🌧️
+      {% elif info.weather.condition == 'Snow' %}❄️
+      {% else %}🌦️{% endif %}
+    </div>
+    <p>Temperature: {{ info.weather.temperature }}°C</p>
+    <p>Condition: {{ info.weather.condition }}</p>
+    <p>Forecast: {{ info.weather.forecast }}</p>
+  </div>
+  {% endif %}
+
+</div>
+{% endif %}
+
+{% endblock %}
